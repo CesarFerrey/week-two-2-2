@@ -22,7 +22,7 @@ h1{
     left: 25%;
 }
 a{
-    color: whitesmoke;
+    color: rgb(7, 1, 1);
 }
 a:hover{
     color:yellow;
@@ -36,24 +36,14 @@ a:hover{
     right: 15%;
     top: 20%;
 }
-.imagen2{
-    visibility: hidden;
-}
-.imagen1:hover{
-visibility: hidden;
-}
-.imagen2:hover{
-    visibility: visible;
-    display: inline-block;
-    flex-wrap: wrap;
-    width: 40%;
-    flex-direction: column;
-    position: absolute;
-    right: 15%;
-    top: 20%;}
 h2{
     position: absolute;
     left: 15%;
+    margin: 1em 0 1em 0;
+    font-size:150%;
+    letter-spacing: 3px;
+    background: inherit;
+    color: #64382F;
 }
 .container{
     display: inline-block;
@@ -62,4 +52,17 @@ h2{
     position: absolute;
     top: 30%;
     left: 5%;
+    width: 600px;
+    background: #fff;
+    color: #666;
 }
+  footer{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: tomato;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+  
